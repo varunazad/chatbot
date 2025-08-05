@@ -14,7 +14,6 @@
 # Installation
     Install via Composer:
 
-    bash
     composer require varun-gh/chatbot
 
 
