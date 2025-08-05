@@ -1,0 +1,32 @@
+# Dependency directories
+/vendor/
+/node_modules/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment files (if any)
+.env
+.env.*.local
+
+# Composer files (usually ignored, but lock file should be committed)
+composer.lock   # ⚠️ For packages, you may choose to commit this (see note below)
+/composer.phar
+
+# Local development/testing files
+/storage/*.key
+/storage/framework/cache/
+/storage/framework/sessions/
+/storage/framework/views/
+/storage/logs/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Debugging/logs
+*.log
+*.cache
